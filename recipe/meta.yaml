@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -26,6 +26,7 @@ requirements:
     - numpydoc
     - sphinx-automodapi
     - sphinx-gallery
+    - graphviz
   run:
     - python
     - sphinx >=1.4
@@ -33,6 +34,7 @@ requirements:
     - numpydoc
     - sphinx-automodapi
     - sphinx-gallery
+    - graphviz
 
 test:
   imports:
