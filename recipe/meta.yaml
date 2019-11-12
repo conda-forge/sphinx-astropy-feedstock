@@ -1,7 +1,7 @@
 {% set name = "sphinx-astropy" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2" %}
 {% set git_url = "https://github.com/astropy/sphinx-astropy" %}
-{% set sha256 = "82721cae68d2e58f7ed173c8ce20d36fd25e1d0cc5502e5ff6cc79a24a50229c" %}
+{% set sha256 = "09718d9a7fae928fcab38f5fcdec0aa352e2bc7934aac164e8397917005e0a7b" %}
 
 package:
   name: {{ name|lower }}
@@ -14,8 +14,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -48,6 +48,7 @@ test:
 about:
   home: {{ git_url }}
   license: BSD
+  license_file: LICENSE.rst
   summary: 'Sphinx extensions and configuration specific to the Astropy project'
   description: |
     This package serves two purposes: it provides a default Sphinx configuration
