@@ -5,9 +5,13 @@ Home: https://github.com/astropy/sphinx-astropy
 
 Package license: BSD
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-astropy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Sphinx extensions and configuration specific to the Astropy project
+
+Development: https://github.com/astropy/sphinx-astropy
+
+Documentation: https://github.com/astropy/sphinx-astropy
 
 This package serves two purposes: it provides a default Sphinx configuration
 and set of extensions specific to the Astropy project, and it acts as a
@@ -123,7 +127,4 @@ Feedstock Maintainers
 * [@astrofrog-conda-forge](https://github.com/astrofrog-conda-forge/)
 * [@drdavella](https://github.com/drdavella/)
 * [@mwcraig](https://github.com/mwcraig/)
-
-
-<!-- dummy commit to enable rerendering -->
 
