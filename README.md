@@ -1,9 +1,9 @@
 About sphinx-astropy
 ====================
 
-Home: https://github.com/astropy/sphinx-astropy
+Home: https://www.astropy.org
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-astropy-feedstock/blob/master/LICENSE.txt)
 
