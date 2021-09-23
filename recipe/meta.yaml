@@ -1,5 +1,5 @@
 {% set name = "sphinx-astropy" %}
-{% set version = "1.5" %}
+{% set version = "1.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx-astropy-{{ version }}.tar.gz
-  sha256: 58aed38e4311fb0842c7b0d0df132c5787d089124f31e64211e18994cab0becc
+  sha256: 9c0bc2a880e444720287cd93bb9b9f5b897bc94c558b25f8423d43e983fb41b2
 
 build:
   number: 0
