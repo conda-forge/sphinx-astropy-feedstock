@@ -18,6 +18,7 @@ build:
 requirements:
   host:
     - python >=3.7
+    - setuptools_scm
     - pip
   run:
     - python >=3.7
@@ -27,7 +28,7 @@ requirements:
     - sphinx-automodapi
     - sphinx-gallery
     - pillow
-    - pytest-doctestplus >=0.10.1
+    - pytest-doctestplus >=0.11
 
 test:
   imports:
