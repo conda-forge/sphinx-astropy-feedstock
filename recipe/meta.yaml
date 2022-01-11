@@ -1,5 +1,5 @@
 {% set name = "sphinx-astropy" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx-astropy-{{ version }}.tar.gz
-  sha256: 9c0bc2a880e444720287cd93bb9b9f5b897bc94c558b25f8423d43e983fb41b2
+  sha256: 511fab3130ff6a61fcce2edfd8d0fe479077fab20e556abafd1b38c14a29d4ba
 
 build:
   number: 0
@@ -22,6 +22,7 @@ requirements:
     - pip
   run:
     - python >=3.7
+    - packaging
     - astropy-sphinx-theme
     - numpydoc
     - sphinx >=1.7
