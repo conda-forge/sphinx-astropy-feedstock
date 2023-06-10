@@ -1,5 +1,5 @@
 {% set name = "sphinx-astropy" %}
-{% set version = "1.8.0" %}
+{% set version = "1.9.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sphinx-astropy-{{ version }}.tar.gz
-  sha256: 73706f65811fe45192f6379f9a6dc841ad69dc11a162ba421ef66c02783a88ae
+  sha256: 7931c795f445caee38f98754afd75fe7393db7df2c4dcc860f94a011fb162454
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
     - packaging
     - astropy-sphinx-theme
     - numpydoc
-    - sphinx >=1.7
+    - sphinx >=3
     - sphinx-automodapi
     - sphinx-gallery
     - sphinxcontrib-jquery
