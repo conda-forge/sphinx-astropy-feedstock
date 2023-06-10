@@ -1,11 +1,11 @@
-About sphinx-astropy
-====================
+About sphinx-astropy-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-astropy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.astropy.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sphinx-astropy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sphinx extensions and configuration specific to the Astropy project
 
