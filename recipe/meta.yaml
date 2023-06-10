@@ -25,7 +25,7 @@ requirements:
     - packaging
     - astropy-sphinx-theme
     - numpydoc
-    - sphinx >=1.7
+    - sphinx >=3
     - sphinx-automodapi
     - sphinx-gallery
     - sphinxcontrib-jquery
