@@ -153,7 +153,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@astrofrog-conda-forge](https://github.com/astrofrog-conda-forge/)
+* [@astrofrog](https://github.com/astrofrog/)
 * [@drdavella](https://github.com/drdavella/)
 * [@mwcraig](https://github.com/mwcraig/)
 
